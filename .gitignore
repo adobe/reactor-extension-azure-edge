@@ -1,0 +1,10 @@
+node_modules
+coverage
+test_results
+dist
+.sandbox
+.entries
+adobe-reactor-extension-azure-edge-*.tgz
+package-azure-*.zip
+.eslintcache
+.vscode

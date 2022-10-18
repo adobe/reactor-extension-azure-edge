@@ -1,0 +1,67 @@
+{
+  "displayName": "Azure",
+  "name": "azure",
+  "iconPath": "resources/icons/microsoft.svg",
+  "version": "1.0.0",
+  "description": "Event forwarding extension that can forward data to Azure.",
+  "exchangeUrl": "https://partners.adobe.com/exchangeprogram/experiencecloud/exchange.details.108974.html",
+  "author": {
+    "name": "Adobe Systems",
+    "url": "http://adobe.com"
+  },
+  "platform": "edge",
+  "viewBasePath": "dist/",
+  "actions": [
+    {
+      "name": "send-data-to-event-hubs",
+      "displayName": "Send Data to Event Hubs",
+      "libPath": "src/lib/actions/sendDataToEventHubs.js",
+      "viewPath": "actions/sendDataToEventHubs.html",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "namespace": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sasRuleName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sasAccessKey": {
+            "type": "string",
+            "minLength": 1
+          },
+          "partitionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "data": {
+            "oneOf": [
+              {
+                "type": "object"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "string",
+                "minLength": 1
+              }
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "required": ["namespace", "name", "sasRuleName", "sasAccessKey", "data"]
+      }
+    }
+  ]
+}
