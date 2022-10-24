@@ -1,9 +1,9 @@
 {
-  "displayName": "Azure",
+  "displayName": "Microsoft Azure",
   "name": "azure",
   "iconPath": "resources/icons/microsoft.svg",
   "version": "1.0.0",
-  "description": "Event forwarding extension that can forward data to Azure.",
+  "description": "Event forwarding extension that can forward data to Microsoft Azure.",
   "exchangeUrl": "https://partners.adobe.com/exchangeprogram/experiencecloud/exchange.details.108974.html",
   "author": {
     "name": "Adobe Systems",
