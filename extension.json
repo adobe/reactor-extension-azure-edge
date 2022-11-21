@@ -6,7 +6,7 @@
   "description": "Event forwarding extension that can forward data to Microsoft Azure.",
   "exchangeUrl": "https://partners.adobe.com/exchangeprogram/experiencecloud/exchange.details.108974.html",
   "author": {
-    "name": "Adobe Systems",
+    "name": "Adobe",
     "url": "http://adobe.com"
   },
   "platform": "edge",
