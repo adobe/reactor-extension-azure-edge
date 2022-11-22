@@ -83,7 +83,7 @@ describe('Send data to event hubs view', () => {
     expect(sasAutorizationRuleNameField.value).toBe('rulename');
     expect(sasAAccessKeyField.value).toBe('12345');
     expect(partitionIdField.value).toBe('1');
-    expect(dataField.value).toBe('{"a":"b"}');
+    expect(dataField.value).toBe('{\n  "a": "b"\n}');
   });
 
   test('sets settings from form values', async () => {
