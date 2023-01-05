@@ -1,8 +1,7 @@
 # Azure extension for Adobe Experience Platform Event Forwarding
 
-[![Build Status](https://img.shields.io/github/workflow/status/adobe/reactor-extension-edge-edge/ci?style=flat)](https://github.com/adobe/reactor-extension-azure-edge/actions)
-[![Coverage Status](https://coveralls.io/repos/github/adobe/reactor-extension-edge-edge/badge.svg?branch=main)](https://coveralls.io/github/adobe/reactor-extension-azure-edge?branch=main)
-[![npm (scoped with tag)](https://img.shields.io/npm/v/@adobe/reactor-extension-edge-edge.svg?style=flat)](https://www.npmjs.com/package/@adobe/reactor-extension-azure-edge)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/adobe/reactor-extension-azure-edge/node.js.yml?style=flat)](https://github.com/adobe/reactor-extension-azure-edge/actions)
+[![Coverage Status](https://coveralls.io/repos/github/adobe/reactor-extension-azure-edge/badge.svg?branch=main)](https://coveralls.io/github/adobe/reactor-extension-azure-edge?branch=main)
 
 Event Forwarding Azure extension that allows you forward data to Azure Event Hubs.
 
